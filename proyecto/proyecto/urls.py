@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('aplicaciones.tipodocumento.urls')),
     path('', include('aplicaciones.home.urls')),
     path('', include('aplicaciones.cuenta.urls')),
+    path('', include('aplicaciones.partida.urls')),
 ]

@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'aplicaciones.tipodocumento',
     'aplicaciones.tipocuenta',
     'aplicaciones.cuenta',
+    'aplicaciones.partida',
     #'aplicaciones.home',
 ]
 
