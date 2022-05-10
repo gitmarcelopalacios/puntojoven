@@ -23,7 +23,8 @@ INSTALLED_APPS = [
     # Aplicaciones Locales
     'aplicaciones.estudiante',
     'aplicaciones.tipodocumento',
-    'aplicaciones.home',
+    'aplicaciones.tipocuenta',
+    #'aplicaciones.home',
 ]
 
 MIDDLEWARE = [
