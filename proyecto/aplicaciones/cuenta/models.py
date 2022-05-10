@@ -5,8 +5,8 @@ from aplicaciones.estudiante.models import Estudiante
 
 class Cuenta(models.Model):
     name = models.CharField('Nombre', max_length=200)
-    idtipodocumento=models.ForeignKey(TipoCuenta, on_delete=models.CASCADE)
-    idestudiante=models.ForeignKey(Estudiante, on_delete=models.CASCADE)
+    idtipodocumento=models.ForeignKey( TipoCuenta, on_delete=models.CASCADE, verbose_name="Grupo de Cuentas")
+    idestudiante=models.ForeignKey(Estudiante, on_delete=models.CASCADE, verbose_name="Estudiante")
    
     def __str__(self):
         return self.name
