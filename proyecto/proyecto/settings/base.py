@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'aplicaciones.estudiante',
     'aplicaciones.tipodocumento',
     'aplicaciones.tipocuenta',
+    'aplicaciones.cuenta',
     #'aplicaciones.home',
 ]
 
